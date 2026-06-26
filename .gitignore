@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+env/
+.env
+
+# Cache and compiled code
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+
+# Data sets
+data/
+
+# Images/artifacts
+images/*.png
+!images/flowchart.png
+!images/station_timeseries.png
+!images/station_residuals.png
+!images/station_hist.png
+
+# IDEs and OS files
+.vscode/
+.DS_Store
